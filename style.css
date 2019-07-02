@@ -54,7 +54,8 @@ nav{
 }
 
 @media screen and (max-width:768px){
-    body{
+    html, body{
+        position: fixed;
         overflow: hidden;
         margin-right: auto;
         margin-left: auto;
