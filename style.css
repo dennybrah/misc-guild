@@ -53,6 +53,10 @@ nav{
     }
 }
 
+@-ms-viewport{
+    width: device-width;
+  }
+
 @media screen and (max-width:768px){
     html,body{
         overflow-x: hidden;
