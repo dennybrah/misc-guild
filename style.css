@@ -55,10 +55,7 @@ nav{
 
 @media screen and (max-width:768px){
     html, body{
-        position: fixed;
-        overflow: hidden;
-        margin-right: auto;
-        margin-left: auto;
+        overflow-x: hidden;
     }
     .nav-links{
         position: absolute;
