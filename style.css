@@ -1,42 +1,133 @@
-div {
-    margin: 60px;
-}
-
-p {
-    font-size: 15px;
-    font-family: serif;
-    color: rgb(163, 163, 163);
-}
-
-a {
-    font-size: 15px;
-    font-family: serif;
-    color: rgb(154, 218, 165);
-}
-
-h1 {
-    font-family: 'DM Serif Display', serif;
-    color: rgb(221, 221, 221);
-}
-
-h4 {
-    font-family: 'DM Serif Display', serif;
-    color: rgb(221, 221, 221);
-    font-style: italic;
-    font-size: 75%;
-}
-
-body {
-    background-color: rgb(87, 87, 87);
-}
-
-@media only screen and (max-width: 600px) {
-    img {
-        max-width: 100%;
-        height: auto;
-      }
-
-      div {
-        margin: 20px;
-    }  
-}
+* {
+    box-sizing: border-box;
+    }
+    
+    body {
+    font-family: Arial;
+    padding: 10px;
+    background: white;
+    }
+    
+    /* Header/Blog Title */
+    .header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+    }
+    
+    .header h1 {
+    font-size: 100px;
+    }
+    
+    /* Style the top navigation bar */
+    .topnav {
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Anton', sans-serif;
+    }
+    
+    /* Style the topnav links */
+    .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    /* Change color on hover */
+    .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+    
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {   
+    float: left;
+    width: 75%;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    background: white;
+    }
+    
+    /* Right column */
+    .rightcolumn {
+    float: left;
+    width: 25%;
+    background: white;
+    padding-left: 20px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    }
+    
+    /* Fake image */
+    .fakeimg {
+    background: white;
+    width: 100%;
+    padding: 20px;
+    }
+    
+    .fakeimg1 {
+        background-image: url("guildgroup.jpg");
+        background-position: center;
+        background-size: 40%;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 20px;
+        }
+    
+    .fakeimg2 {
+        background-image: url("wowclassicblack.png");
+        background-color:#1A1915;
+        background-position: center;
+        background-size: 40%;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 20px;
+        }
+    
+    /* Add a card effect for articles */
+    .card {
+    background-color: rgb(94, 94, 94);
+    padding: 20px;
+    margin-top: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #f2f2f2;
+    border-style: solid;
+    border-color: black;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    
+    /* Footer */
+    .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    }
+    
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+    }
+    
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+    }
