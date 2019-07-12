@@ -19,6 +19,13 @@ h1 {
     color: rgb(221, 221, 221);
 }
 
+h4 {
+    font-family: 'DM Serif Display', serif;
+    color: rgb(221, 221, 221);
+    font-style: italic;
+    font-size: 75%;
+}
+
 body {
     background-color: rgb(87, 87, 87);
 }
