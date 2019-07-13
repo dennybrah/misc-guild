@@ -23,26 +23,33 @@
     
     /* Style the top navigation bar */
     .topnav {
-    overflow: hidden;
-    background-color: #333;
-    font-family: 'Anton', sans-serif;
-    }
+        width: 100%;
+        background-color: rgb(49, 49, 49);
+        overflow: auto;
+      }
     
     /* Style the topnav links */
     .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    }
+        float: left;
+        padding: 12px;
+        color: white;
+        text-decoration: none;
+        font-family: 'Anton', sans-serif;
+        font-size: 17px;
+        width: 33.33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+        text-align: center; /* If you want the text to be centered */
+      }
     
     /* Change color on hover */
     .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+        background-color: #000;
     }
+
+    /* Style the current/active link */
+    .topnav a.active {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+  }
     
     /* Create two unequal columns that floats next to each other */
     /* Left column */
@@ -145,3 +152,13 @@
         width: 100%;
     }
     }
+
+    /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+    .topnav a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: center; /* If you want the text to be left-aligned on small screens */
+    }
+  }
