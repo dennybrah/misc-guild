@@ -36,7 +36,7 @@
         text-decoration: none;
         font-family: 'Anton', sans-serif;
         font-size: 17px;
-        width: 33.33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+        width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
         text-align: center; /* If you want the text to be centered */
       }
     
@@ -100,6 +100,11 @@
     color: #f2f2f2;
     border-style: solid;
     border-color: black;
+    overflow: auto;
+    }
+
+    .card a {
+        color: rgb(95, 219, 101);
     }
     
     /* Clear floats after the columns */
@@ -136,7 +141,7 @@
     .leftcolumn, .rightcolumn {   
         width: 100%;
         padding: 0;
-    }
+        }
     }
     
     /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
@@ -155,4 +160,12 @@
       width: 100%;
       text-align: center; /* If you want the text to be left-aligned on small screens */
     }
+  }
+
+  .clearfix {
+    overflow: auto;
+  }
+  
+  .img2 {
+    float: right;
   }
