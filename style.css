@@ -34,7 +34,8 @@
         padding: 12px;
         color:rgb(211, 255, 213);
         text-decoration: none;
-        font-family: 'Anton', sans-serif; 
+        font-family: 'Anton', sans-serif;
+        font-weight: 900;   
         font-size: 17px;
         letter-spacing: 1px;
         width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
@@ -186,10 +187,10 @@
       border-style: solid;
       border-color: #006a8c;
   }
-      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
-      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
-      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
-      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+  
+  .blizzard h1 {
+      color: white;
+  }
 
   .split {
   height: 100%;
@@ -218,7 +219,7 @@
 .right a {
     color: white;
     text-decoration: none;
-    font-size:1.3vw;
+    font-size:1.5vw;
 }
 
 .right {
