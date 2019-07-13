@@ -44,12 +44,6 @@
     .topnav a:hover {
         background-color: #000;
     }
-
-    /* Style the current/active link */
-    .topnav a.active {
-    background-color: rgb(255, 255, 255);
-    color: #000;
-  }
     
     /* Create two unequal columns that floats next to each other */
     /* Left column */
