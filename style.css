@@ -203,7 +203,7 @@
 .left {
   left: 0;
   background-color: #7289d9;
-  font-family: 'Exo', sans-serif;
+  font-family: 'Press Start 2P', cursive;
   letter-spacing: 3px;
   color: rgb(51, 51, 51);
 }
@@ -223,7 +223,6 @@
 .right {
   right: 0;
   background-color: #0f0a08;
-  font-family: 'Anton', sans-serif;
   letter-spacing: 3px;
   color: white;
   font-family: 'Press Start 2P', cursive;
