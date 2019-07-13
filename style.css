@@ -176,3 +176,16 @@
   .img2 {
     float: right;
   }
+
+  .blizzard {
+      color: #00baaf;
+      text-align: left;
+      background-color: #000000;
+      padding: 20px;
+      border-style: solid;
+      border-color: #006a8c;
+  }
+  
+  .blizzard h1 {
+      color: white;
+  }
