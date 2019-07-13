@@ -186,10 +186,10 @@
       border-style: solid;
       border-color: #006a8c;
   }
-  
-  .blizzard h1 {
-      color: white;
-  }
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
 
   .split {
   height: 100%;
@@ -218,7 +218,7 @@
 .right a {
     color: white;
     text-decoration: none;
-    font-size:1.5vw;
+    font-size:1.3vw;
 }
 
 .right {
