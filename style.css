@@ -5,14 +5,14 @@
     body {
     font-family: Arial;
     padding: 10px;
-    background: white;
+    background: rgb(240, 240, 240);
     }
     
     /* Header/Blog Title */
     .header {
     padding: 30px;
     text-align: center;
-    background: white;
+    background: rgb(240, 240, 240));
     font-family: 'Anton', sans-serif;
     letter-spacing: 5px;
     }
@@ -24,7 +24,7 @@
     /* Style the top navigation bar */
     .topnav {
         width: 100%;
-        background-color: rgb(49, 49, 49);
+        background-color: rgb(240, 240, 240);
         overflow: auto;
       }
     
@@ -32,7 +32,7 @@
     .topnav a {
         float: left;
         padding: 12px;
-        color:rgb(211, 255, 213);
+        color:rgb(59, 59, 59);
         text-decoration: none;
         font-family: 'Anton', sans-serif;
         font-size: 17px;
@@ -43,7 +43,7 @@
     
     /* Change color on hover */
     .topnav a:hover {
-        background-color: #000;
+        background-color: rgb(240, 240, 240);
     }
     
     /* Create two unequal columns that floats next to each other */
@@ -53,14 +53,14 @@
     width: 75%;
     text-align: center;
     font-family: 'Noto Sans KR', sans-serif;
-    background: white;
+    background: rgb(240, 240, 240);
     }
     
     /* Right column */
     .rightcolumn {
     float: left;
     width: 25%;
-    background: white;
+    background: rgb(240, 240, 240);
     padding-left: 20px;
     text-align: center;
     font-family: 'Noto Sans KR', sans-serif;
@@ -68,7 +68,7 @@
     
     /* Fake image */
     .fakeimg {
-    background: white;
+    background: rgb(240, 240, 240);
     width: 100%;
     padding: 20px;
     }
@@ -94,18 +94,35 @@
     
     /* Add a card effect for articles */
     .card {
-    background-color: rgb(94, 94, 94);
+    background-color: rgb(240, 240, 240);
     padding: 20px;
     margin-top: 20px;
+    font-weight: bold;
     font-family: 'Noto Sans KR', sans-serif;
-    color: #f2f2f2;
-    border-style: solid;
-    border-color: black;
+    color: #rgb(29, 29, 29);
     overflow: auto;
     }
 
     .card a {
         color: rgb(95, 219, 101);
+    }
+
+    .card p {
+      text-align: left;
+    }
+
+    .card h5 {
+      font-style: italic;
+      text-align: right;
+    }
+
+    .leftcolumn h2 {
+      font-size: 2vw;
+      text-align: right;
+    }
+
+    .rightcolumn h2 {
+      font-size: 2vw;
     }
     
     /* Clear floats after the columns */
@@ -119,7 +136,7 @@
     .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: rgb(240, 240, 240);
     margin-top: 20px;
     }
 
@@ -182,13 +199,13 @@
       color: #00baaf;
       text-align: left;
       background-color: #000000;
-      padding: 20px;
-      border-style: solid;
+      padding: 10px;
+      margin: 0px;
       border-color: #006a8c;
   }
   
   .blizzard h1 {
-      color: white;
+      color: rgb(240, 240, 240);
   }
 
   .split {
@@ -216,7 +233,7 @@
 }
 
 .right a {
-    color: white;
+    color: rgb(240, 240, 240);
     text-decoration: none;
     font-size:1.5vw;
 }
@@ -225,7 +242,7 @@
   right: 0;
   background-color: #0f0a08;
   letter-spacing: 3px;
-  color: white;
+  color: rgb(240, 240, 240);
   font-family: 'Press Start 2P', cursive;
   font-size: 60%;
 }
