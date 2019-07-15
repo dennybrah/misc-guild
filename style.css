@@ -26,9 +26,11 @@
         width: 100%;
         background-color: rgb(240, 240, 240);
         overflow: auto;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
       }
     
-    /* Style the topnav links */
     .topnav a {
         float: left;
         padding: 12px;
@@ -41,24 +43,20 @@
         text-align: center; /* If you want the text to be centered */
       }
     
-    /* Change color on hover */
     .topnav a:hover {
         background-color: rgb(240, 240, 240);
     }
     
-    /* Create two unequal columns that floats next to each other */
-    /* Left column */
     .leftcolumn {   
     float: left;
-    width: 75%;
+    width: 20%;
     text-align: center;
     font-family: 'Noto Sans KR', sans-serif;
     background: rgb(240, 240, 240);
     }
     
-    /* Right column */
     .rightcolumn {
-    float: left;
+    float: right;
     width: 25%;
     background: rgb(240, 240, 240);
     padding-left: 20px;
@@ -66,7 +64,6 @@
     font-family: 'Noto Sans KR', sans-serif;
     }
     
-    /* Fake image */
     .fakeimg {
     background: rgb(240, 240, 240);
     width: 100%;
@@ -94,13 +91,14 @@
     
     /* Add a card effect for articles */
     .card {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(219, 219, 219);
     padding: 20px;
     margin-top: 20px;
     font-weight: bold;
     font-family: 'Noto Sans KR', sans-serif;
     color: #rgb(29, 29, 29);
     overflow: auto;
+    border-radius: 5px;
     }
 
     .card a {
@@ -117,7 +115,7 @@
     }
 
     .leftcolumn h2 {
-      font-size: 2vw;
+      font-size: 20px;
       text-align: right;
     }
 
@@ -206,6 +204,10 @@
   
   .blizzard h1 {
       color: rgb(240, 240, 240);
+  }
+
+  .blizzard p {
+    font-size: 13px;
   }
 
   .split {
