@@ -39,7 +39,7 @@
         font-family: 'Anton', sans-serif;
         font-size: 17px;
         letter-spacing: 1px;
-        width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+        width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
         text-align: center; /* If you want the text to be centered */
       }
     
@@ -161,11 +161,35 @@
       font-size: 2vw;
     }
     
-    /* Clear floats after the columns */
-    .row:after {
-    content: "";
-    display: table;
-    clear: both;
+    .guide1 {
+      float: left;
+      width: 50%;
+      background: rgb(240, 240, 240);
+      text-align: center;
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    .guide1 img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .guide2 img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .guide2 {
+      float: Right;
+      width: 50%;
+      background: rgb(240, 240, 240);
+      text-align: center;
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    .wrapper {
+      margin: 0 auto;
+      width: 100%;
     }
     
     /* Footer */
@@ -201,7 +225,7 @@
     
     /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
     @media screen and (max-width: 800px) {
-    .columnleft, .columnright, .columnmiddle {   
+    .columnleft, .columnright, .columnmiddle, .guide1, .guide2 {   
         width: 100%;
         padding: 0;
         }
