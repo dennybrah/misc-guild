@@ -47,22 +47,52 @@
         background-color: rgb(240, 240, 240);
     }
     
-    .leftcolumn {   
+    .columnhead {
+      background-color: rgb(243,195,51);
+      padding: 1px;
+      border-radius: 5px;
+      margin-bottom: 0px;
+    }
+
+    .columnleft {   
     float: left;
     width: 20%;
+    padding: 10px;
     text-align: center;
     font-family: 'Noto Sans KR', sans-serif;
     background: rgb(240, 240, 240);
+    }
+
+    .columnleft h1 {
+      font-family:'Press Start 2P', cursive;
+      font-size: 100%;
+    }
+
+    .columnright h1 {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 100%;
     }
     
-    .rightcolumn {
-    float: right;
-    width: 25%;
+    .columnmiddle {
+      float: left;
+      padding: 10px;
+      width: 60%;
+
+    }
+
+    .columnmiddle img {
+      width: 100%;
+    }
+
+    .columnright {
+    float: left;
+    width: 20%;
+    padding: 10px;
     background: rgb(240, 240, 240);
-    padding-left: 20px;
     text-align: center;
     font-family: 'Noto Sans KR', sans-serif;
     }
+
     
     .fakeimg {
     background: rgb(240, 240, 240);
@@ -91,9 +121,10 @@
     
     /* Add a card effect for articles */
     .card {
-    background-color: rgb(219, 219, 219);
-    padding: 20px;
-    margin-top: 20px;
+    background-color: rgb(238, 230, 207);
+    padding: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-weight: bold;
     font-family: 'Noto Sans KR', sans-serif;
     color: #rgb(29, 29, 29);
@@ -114,12 +145,12 @@
       text-align: right;
     }
 
-    .leftcolumn h2 {
+    .colulumnleft h2 {
       font-size: 20px;
       text-align: right;
     }
 
-    .rightcolumn h2 {
+    .columnright h2 {
       font-size: 2vw;
     }
     
@@ -154,7 +185,7 @@
     
     /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
     @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {   
+    .columnleft, .columnright, .columnmiddle {   
         width: 100%;
         padding: 0;
         }
