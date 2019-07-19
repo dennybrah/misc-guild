@@ -95,6 +95,20 @@
       padding: 10px;
     }
 
+    .raidvideo h2 {
+      text-decoration: underline;
+      color: grey;
+    }
+
+    .raidguides a {
+      text-decoration: none;
+      color: #db7d23;
+    }
+
+    .raidguides p {
+      color: grey;
+    }
+
     .raidguidetext {
       width: 50%;
       float: left;
@@ -177,7 +191,7 @@
       }
 
     .cardguide {
-      background-color: rgb(238, 230, 207);
+      background-color: rgb(61, 66, 74);
       padding: 13px;
       margin-top: 5px;
       margin-bottom: 20px;
@@ -257,7 +271,10 @@
         display: none;
       }
       .raidguides {
-        text-align: center;
+        text-align: left;
+      .raidvideo {
+        text-align: left;
+      }
       }
     }
 
