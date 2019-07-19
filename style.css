@@ -8,7 +8,6 @@
     background: rgb(240, 240, 240);
     }
 
-    /* Header/Blog Title */
     .header {
     padding: 30px;
     text-align: center;
@@ -21,7 +20,6 @@
     font-size: 100px;
     }
 
-    /* Style the top navigation bar */
     .topnav {
         width: 100%;
         background-color: rgb(240, 240, 240);
@@ -39,8 +37,8 @@
         font-family: 'Anton', sans-serif;
         font-size: 17px;
         letter-spacing: 1px;
-        width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-        text-align: center; /* If you want the text to be centered */
+        width: 20%;
+        text-align: center;
       }
 
     .topnav a:hover {
@@ -72,194 +70,220 @@
     .columnright h1 {
       font-family: 'Press Start 2P', cursive;
       font-size: 100%;
+      }
+
+    .cardguide img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      }
+
+    .raidguides h1 {
+      font-family:'Press Start 2P', cursive;
+      font-size: 100%;
+    }
+
+    .raidpic {
+      float: left;
+      width: 20%;
+      padding: 10px;
+    }
+
+    .raidvideo {
+      float: left;
+      width: 30%;
+      padding: 10px;
+    }
+
+    .raidguidetext {
+      width: 50%;
+      float: left;
+      padding: 10px;
     }
 
     .columnmiddle h1{
       font-family: 'Press Start 2P', cursive;
       font-size: 100%;
-    }
+      }
 
     .columnmiddle {
       float: left;
       padding: 10px;
       width: 60%;
       text-align: right;
-
-    }
+      }
 
     .columnmiddle img {
       width: 100%;
-    }
+      }
 
     .columnright {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background: rgb(240, 240, 240);
-    text-align: center;
-    font-family: 'Noto Sans KR', sans-serif;
-    }
-
+      float: left;
+      width: 20%;
+      padding: 10px;
+      background: rgb(240, 240, 240);
+      text-align: center;
+      font-family: 'Noto Sans KR', sans-serif;
+      }
 
     .fakeimg {
-    background: rgb(240, 240, 240);
-    width: 100%;
-    padding: 20px;
-    }
+      background: rgb(240, 240, 240);
+      width: 100%;
+      padding: 20px;
+      }
 
     .fakeimg1 {
-        background-image: url("guildgroup.jpg");
-        background-position: center;
-        background-size: 40%;
-        background-repeat: no-repeat;
-        width: 100%;
-        padding: 20px;
-        }
+      background-image: url("guildgroup.jpg");
+      background-position: center;
+      background-size: 40%;
+      background-repeat: no-repeat;
+      width: 100%;
+      padding: 20px;
+      }
 
     .fakeimg2 {
-        background-image: url("wowclassicblack.png");
-        background-color:#1A1915;
-        background-position: center;
-        background-size: 40%;
-        background-repeat: no-repeat;
-        width: 100%;
-        padding: 20px;
-        }
+      background-image: url("wowclassicblack.png");
+      background-color:#1A1915;
+      background-position: center;
+      background-size: 40%;
+      background-repeat: no-repeat;
+      width: 100%;
+      padding: 20px;
+      }
 
-    /* Add a card effect for articles */
     .card {
-    background-color: rgb(238, 230, 207);
-    padding: 13px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    font-weight: bold;
-    font-family: 'Noto Sans KR', sans-serif;
-    color: rgb(29, 29, 29);
-    overflow: auto;
-    border-radius: 5px;
+      background-color: rgb(238, 230, 207);
+      padding: 13px;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-family: 'Noto Sans KR', sans-serif;
+      color: rgb(29, 29, 29);
+      overflow: auto;
+      border-radius: 5px;
     }
 
     .card a {
         color: rgb(95, 219, 101);
-    }
+        }
 
     .card p {
       text-align: left;
-    }
+      }
 
     .card h5 {
       font-style: italic;
       text-align: right;
+      }
+
+    .cardguide {
+      background-color: rgb(238, 230, 207);
+      padding: 13px;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-family: 'Noto Sans KR', sans-serif;
+      color: rgb(29, 29, 29);
+      overflow: auto;
+      border-radius: 5px;
     }
 
     .columnleft h2 {
       font-size: 20px;
       text-align: right;
-    }
+      }
 
     .columnright h2 {
       font-size: 2vw;
+      }
+
+    .wrapper h1 {
+      font-family:'Press Start 2P', cursive;
     }
 
-    .guide1 {
-      width: 100%;
-      background: rgb(240, 240, 240);
-      text-align: center;
-      font-family: 'Noto Sans KR', sans-serif;
-    }
-
-    .guide1 img {
-      width: 200px;
-      height: 200px;
-    }
-
-    .wrapper {
-      margin: 0 auto;
-      width: 100%;
-    }
-
-    /* Footer */
     .footer {
-    padding: 20px;
-    text-align: center;
-    background: rgb(240, 240, 240);
-    margin-top: 20px;
-    }
+      padding: 20px;
+      text-align: center;
+      background: rgb(240, 240, 240);
+      margin-top: 20px;
+      }
 
-    .video-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-}
-.video-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
+    .video-responsive {
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+      }
 
-.videobox1 {
-  width: 50%;
-  float: left;
-}
-.videobox2 {
-  width: 50%;
-  float: right;
-}
+    .video-responsive iframe {
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+        }
 
-    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    .videobox1 {
+      width: 50%;
+      float: left;
+      }
+
+    .videobox2 {
+      width: 50%;
+      float: right;
+      }
+
     @media screen and (max-width: 800px) {
-    .columnleft, .columnright, .columnmiddle, .guide1, .guide2 {
+      .columnleft, .columnright, .columnmiddle, .guide1, .guide2, .raidpic, .raidvideo, .raidguidetext {
         width: 100%;
         padding: 0;
-        }
-
-    .img2 {
+          }
+      .img2 {
         display: none;
         }
-    .card {
+      .card {
         text-align: center;
         }
-    .topnav {
-      position: static;
+      .topnav {
+        position: static;
+        }
+      .videobox1 {
+        width: 100%;
+        }
+      .videobox2 {
+        width: 100%;
+        }
+      .raidpic {
+        display: none;
       }
-    .videobox1 {
-      width: 100%;
-    }
-    .videobox2 {
-      width: 100%;
+      .raidguides {
+        text-align: center;
+      }
     }
 
-
-    }
-
-    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
     @media screen and (max-width: 400px) {
     .topnav a {
-        float: none;
-        width: 100%;
-    }
+      float: none;
+      width: 100%;
+      }
     }
 
-    /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
 @media screen and (max-width: 500px) {
     .topnav a {
       float: none;
       display: block;
       width: 100%;
-      text-align: center; /* If you want the text to be left-aligned on small screens */
+      text-align: center;
+      }
     }
-  }
 
   .clearfix {
     overflow: auto;
-  }
+    }
 
   .img2 {
     float: right;
-  }
+    }
 
   .blizzard {
       color: #00baaf;
@@ -268,15 +292,15 @@
       padding: 10px;
       margin: 0px;
       border-color: #006a8c;
-  }
+      }
 
   .blizzard h1 {
       color: rgb(240, 240, 240);
-  }
+      }
 
   .blizzard p {
     font-size: 13px;
-  }
+    }
 
   .split {
   height: 100%;
@@ -286,27 +310,27 @@
   top: 0;
   overflow-x: hidden;
   padding-top: 20px;
-}
+  }
 
-.left {
-  left: 0;
-  background-color: #7289d9;
-  font-family: 'Press Start 2P', cursive;
-  letter-spacing: 3px;
-  color: rgb(51, 51, 51);
-}
+  .left {
+    left: 0;
+    background-color: #7289d9;
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: 3px;
+    color: rgb(51, 51, 51);
+  }
 
 .left a {
     color: rgb(51, 51, 51);
     text-decoration: none;
     font-size:1.7vw;
-}
+    }
 
 .right a {
     color: rgb(240, 240, 240);
     text-decoration: none;
     font-size:1.5vw;
-}
+    }
 
 .right {
   right: 0;
@@ -315,7 +339,7 @@
   color: rgb(240, 240, 240);
   font-family: 'Press Start 2P', cursive;
   font-size: 60%;
-}
+  }
 
 .centered {
   position: absolute;
@@ -323,7 +347,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-}
+  }
 
 .centered img {
   width: 100%;
