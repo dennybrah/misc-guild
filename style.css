@@ -1,13 +1,13 @@
 * {
     box-sizing: border-box;
     }
-    
+
     body {
     font-family: Arial;
     padding: 10px;
     background: rgb(240, 240, 240);
     }
-    
+
     /* Header/Blog Title */
     .header {
     padding: 30px;
@@ -16,11 +16,11 @@
     font-family: 'Anton', sans-serif;
     letter-spacing: 5px;
     }
-    
+
     .header h1 {
     font-size: 100px;
     }
-    
+
     /* Style the top navigation bar */
     .topnav {
         width: 100%;
@@ -30,7 +30,7 @@
         position: sticky;
         top: 0;
       }
-    
+
     .topnav a {
         float: left;
         padding: 12px;
@@ -42,12 +42,12 @@
         width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
         text-align: center; /* If you want the text to be centered */
       }
-    
+
     .topnav a:hover {
         background-color: rgb(59, 59, 59);
         color: rgb(240, 240, 240);
     }
-    
+
     .columnhead {
       background-color: rgb(243,195,51);
       padding: 1px;
@@ -55,7 +55,7 @@
       margin-bottom: 0px;
     }
 
-    .columnleft {   
+    .columnleft {
     float: left;
     width: 20%;
     padding: 10px;
@@ -78,7 +78,7 @@
       font-family: 'Press Start 2P', cursive;
       font-size: 100%;
     }
-    
+
     .columnmiddle {
       float: left;
       padding: 10px;
@@ -100,13 +100,13 @@
     font-family: 'Noto Sans KR', sans-serif;
     }
 
-    
+
     .fakeimg {
     background: rgb(240, 240, 240);
     width: 100%;
     padding: 20px;
     }
-    
+
     .fakeimg1 {
         background-image: url("guildgroup.jpg");
         background-position: center;
@@ -115,7 +115,7 @@
         width: 100%;
         padding: 20px;
         }
-    
+
     .fakeimg2 {
         background-image: url("wowclassicblack.png");
         background-color:#1A1915;
@@ -125,7 +125,7 @@
         width: 100%;
         padding: 20px;
         }
-    
+
     /* Add a card effect for articles */
     .card {
     background-color: rgb(238, 230, 207);
@@ -160,10 +160,9 @@
     .columnright h2 {
       font-size: 2vw;
     }
-    
+
     .guide1 {
-      float: left;
-      width: 50%;
+      width: 100%;
       background: rgb(240, 240, 240);
       text-align: center;
       font-family: 'Noto Sans KR', sans-serif;
@@ -174,24 +173,11 @@
       height: 200px;
     }
 
-    .guide2 img {
-      width: 200px;
-      height: 200px;
-    }
-
-    .guide2 {
-      float: Right;
-      width: 50%;
-      background: rgb(240, 240, 240);
-      text-align: center;
-      font-family: 'Noto Sans KR', sans-serif;
-    }
-
     .wrapper {
       margin: 0 auto;
       width: 100%;
     }
-    
+
     /* Footer */
     .footer {
     padding: 20px;
@@ -222,10 +208,10 @@
   width: 50%;
   float: right;
 }
-    
+
     /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
     @media screen and (max-width: 800px) {
-    .columnleft, .columnright, .columnmiddle, .guide1, .guide2 {   
+    .columnleft, .columnright, .columnmiddle, .guide1, .guide2 {
         width: 100%;
         padding: 0;
         }
@@ -248,7 +234,7 @@
 
 
     }
-    
+
     /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
     @media screen and (max-width: 400px) {
     .topnav a {
@@ -270,7 +256,7 @@
   .clearfix {
     overflow: auto;
   }
-  
+
   .img2 {
     float: right;
   }
@@ -283,7 +269,7 @@
       margin: 0px;
       border-color: #006a8c;
   }
-  
+
   .blizzard h1 {
       color: rgb(240, 240, 240);
   }
