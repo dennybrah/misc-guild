@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    overflow: auto;
     }
 
     body {
@@ -24,8 +25,6 @@
         width: 100%;
         background-color: rgb(240, 240, 240);
         overflow: auto;
-        position: -webkit-sticky; /* Safari */
-        position: sticky;
         top: 0;
       }
 
