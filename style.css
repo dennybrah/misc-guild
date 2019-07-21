@@ -36,7 +36,7 @@
         font-family: 'Anton', sans-serif;
         font-size: 17px;
         letter-spacing: 1px;
-        width: 20%;
+        width: 16.666%;
         text-align: center;
       }
 
@@ -268,11 +268,12 @@
         }
       .raidguides {
         text-align: left;
+      }
       .raidvideo {
         text-align: left;
       }
       }
-    }
+    
 
     @media screen and (max-width: 400px) {
     .topnav a {
