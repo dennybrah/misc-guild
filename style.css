@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    overflow: auto;
     }
 
     body {
@@ -36,7 +35,7 @@
         font-family: 'Anton', sans-serif;
         font-size: 17px;
         letter-spacing: 1px;
-        width: 16.666%;
+        width: 25%;
         text-align: center;
       }
 
@@ -163,7 +162,23 @@
       width: 100%;
       padding: 20px;
       }
+     
+    .otherguides {
+      background-color: rgb(238, 230, 207);
+      padding: 13px;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-family: 'Noto Sans KR', sans-serif;
+      color: rgb(29, 29, 29);
+      border-radius: 5px;
+      text-align: center;
+    }
 
+    .otherguides h1 {
+      text-decoration: underline;
+    }
+      
     .card {
       background-color: rgb(238, 230, 207);
       padding: 13px;
