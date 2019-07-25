@@ -172,7 +172,7 @@
       font-family: 'Noto Sans KR', sans-serif;
       color: rgb(29, 29, 29);
       border-radius: 5px;
-      text-align: center;
+      text-align: left;
     }
 
     .otherguides h1 {
@@ -286,6 +286,9 @@
       }
       .raidvideo {
         text-align: left;
+      }
+      .otherguides h1 {
+        text-align: center;
       }
       }
     
