@@ -175,8 +175,21 @@
       text-align: left;
     }
 
+    .leftguide {
+      width: 75%;
+      float: left;
+      padding: 5px;
+    }
+
+    .rightguide {
+      width: 25%;
+      float: left;
+      padding: 5px;
+    }
+
     .otherguides h1 {
       text-decoration: underline;
+      text-align: center;
     }
       
     .card {
@@ -262,7 +275,7 @@
       }
 
     @media screen and (max-width: 800px) {
-      .columnleft, .columnright, .columnmiddle, .guide1, .guide2, .raidpic, .raidvideo, .raidguidetext {
+      .columnleft, .columnright, .columnmiddle, .guide1, .guide2, .raidpic, .raidvideo, .raidguidetext, .leftguide, .rightguide {
         width: 100%;
         padding: 0;
           }
@@ -286,9 +299,6 @@
       }
       .raidvideo {
         text-align: left;
-      }
-      .otherguides h1 {
-        text-align: center;
       }
       }
     
