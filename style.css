@@ -399,3 +399,12 @@
   width: 100%;
   float: left;
 }
+.columnhead1 {
+  background-color: #fff569;
+  padding: 1px;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  font-family:'Press Start 2P', cursive;
+  font-size: 50%;
+  margin: 3px;
+}
