@@ -268,9 +268,8 @@
       }
 
     @media screen and (max-width: 800px) {
-      .columnleft, .columnright, .columnmiddle, .guide1, .guide2, .raidpic, .raidvideo, .raidguidetext, .leftguide, .rightguide {
+      .columnleft, .columnright, .columnmiddle, .guide1, .guide2, .raidpic, .raidvideo, .raidguidetext, .leftguide, .rightguide, .guildleft, .guildright {
         width: 100%;
-        padding: 0;
           }
       .img2 {
         display: none;
@@ -392,10 +391,11 @@
 }
 
 .guildright {
-  width: 50%;
+  width: 100%;
   float: left;
+
 }
 .guildleft {
-  width: 50%;
+  width: 100%;
   float: left;
 }
