@@ -5,24 +5,23 @@
     body {
     font-family: Arial;
     padding: 10px;
-    background: rgb(240, 240, 240);
+    background: #463f3a;
     }
 
     .header {
     padding: 30px;
     text-align: center;
-    background: rgb(240, 240, 240);
     font-family: 'Anton', sans-serif;
     letter-spacing: 5px;
     }
 
     .header h1 {
     font-size: 100px;
+    color: #fbfef9;
     }
 
     .topnav {
         width: 100%;
-        background-color: rgb(240, 240, 240);
         overflow: auto;
         top: 0;
       }
@@ -30,7 +29,7 @@
     .topnav a {
         float: left;
         padding: 12px;
-        color:rgb(59, 59, 59);
+        color:#fbfef9;
         text-decoration: none;
         font-family: 'Anton', sans-serif;
         font-size: 17px;
@@ -40,12 +39,14 @@
       }
 
     .topnav a:hover {
-        background-color: rgb(59, 59, 59);
-        color: rgb(240, 240, 240);
+        background-color: #9482c9;
+        color: #463f3a;
+        border-radius: 5px;
+        padding: 10px;
     }
 
     .columnhead {
-      background-color: rgb(243,195,51);
+      background-color: #fff569;
       padding: 1px;
       border-radius: 5px;
       margin-bottom: 0px;
@@ -57,7 +58,6 @@
     padding: 10px;
     text-align: center;
     font-family: 'Noto Sans KR', sans-serif;
-    background: rgb(240, 240, 240);
     }
 
     .columnleft h1 {
@@ -95,16 +95,11 @@
 
     .raidvideo h2 {
       text-decoration: underline;
-      color: grey;
     }
 
     .raidguides a {
       text-decoration: none;
-      color: #db7d23;
-    }
-
-    .raidguides p {
-      color: grey;
+      color: #ff7d0a;
     }
 
     .raidguidetext {
@@ -133,7 +128,6 @@
       float: left;
       width: 20%;
       padding: 10px;
-      background: rgb(240, 240, 240);
       text-align: center;
       font-family: 'Noto Sans KR', sans-serif;
       }
@@ -218,7 +212,7 @@
       }
 
     .cardguide {
-      background-color: rgb(61, 66, 74);
+      background-color: rgb(238, 230, 207);
       padding: 13px;
       margin-top: 5px;
       margin-bottom: 20px;
