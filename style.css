@@ -408,3 +408,11 @@
   font-size: 50%;
   margin: 3px;
 }
+
+@media (max-width: 650px) {
+
+  .header h1 img {
+        height:75%;
+        width:75%;
+   }
+  }
