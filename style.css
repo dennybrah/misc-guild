@@ -36,13 +36,13 @@
         letter-spacing: 1px;
         width: 16.66%;
         text-align: center;
+        margin-bottom: 5px;
       }
 
     .topnav a:hover {
         background-color: #9482c9;
         color: #463f3a;
         border-radius: 5px;
-        padding: 10px;
     }
 
     .columnhead {
@@ -55,7 +55,6 @@
     .columnleft {
     float: left;
     width: 20%;
-    padding: 10px;
     text-align: center;
     font-family: 'Noto Sans KR', sans-serif;
     }
@@ -115,7 +114,8 @@
 
     .columnmiddle {
       float: left;
-      padding: 10px;
+      padding-left: 6px;
+      padding-right: 6px;
       width: 60%;
       text-align: right;
       }
@@ -127,7 +127,6 @@
     .columnright {
       float: left;
       width: 20%;
-      padding: 10px;
       text-align: center;
       font-family: 'Noto Sans KR', sans-serif;
       }
@@ -190,7 +189,7 @@
       background-color: rgb(238, 230, 207);
       padding: 13px;
       margin-top: 5px;
-      margin-bottom: 20px;
+      margin-bottom: 6px;
       font-weight: bold;
       font-family: 'Noto Sans KR', sans-serif;
       color: rgb(29, 29, 29);
