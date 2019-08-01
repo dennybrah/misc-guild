@@ -416,3 +416,8 @@
         width:75%;
    }
   }
+
+  .grid-container {
+    overflow: visible;
+    background: #463f3a;
+}
