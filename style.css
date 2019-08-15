@@ -138,7 +138,7 @@
       }
 
     .fakeimg1 {
-      background-image: url("guildgroup.jpg");
+      background-image: url("images/guildgroup.jpg");
       background-position: center;
       background-size: 40%;
       background-repeat: no-repeat;
@@ -147,7 +147,7 @@
       }
 
     .fakeimg2 {
-      background-image: url("wowclassicblack.png");
+      background-image: url("images/wowclassicblack.png");
       background-color:#1A1915;
       background-position: center;
       background-size: 40%;
