@@ -169,13 +169,13 @@
     }
 
     .leftguide {
-      width: 83%;
+      width: 50%;
       float: left;
       padding-right: 3px;
     }
 
     .rightguide {
-      width: 17%;
+      width: 50%;
       float: left;
       padding-left: 3px;
     }
