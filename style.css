@@ -5,7 +5,7 @@
     body {
     font-family: Arial;
     padding: 10px;
-    background: #463f3a;
+    background: #333333;
     }
 
     .header {
@@ -155,7 +155,7 @@
       width: 100%;
       padding: 20px;
       }
-     
+
     .otherguides {
       background-color: rgb(238, 230, 207);
       padding: 13px;
@@ -184,7 +184,7 @@
       text-decoration: underline;
       text-align: center;
     }
-      
+
     .card {
       background-color: rgb(238, 230, 207);
       padding: 13px;
@@ -293,7 +293,7 @@
         text-align: left;
       }
       }
-    
+
 
     @media screen and (max-width: 400px) {
     .topnav a {
