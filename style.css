@@ -21,6 +21,11 @@
     color: #fbfef9;
     }
 
+    .responsive {
+    width: 100%;
+    height: auto;
+    }
+
     .topnav {
         width: 100%;
         overflow: auto;
